@@ -24,8 +24,15 @@
         "actions": []
     },
     "post-checkout": {
-        "enabled": false,
-        "actions": []
+        "enabled": true,
+        "actions": [
+            {
+                "action": "\\CaptainHook\\App\\Hook\\Notify\\Action\\Notify",
+                "options": {
+                    "prefix": "git-notify:"
+                }
+            }
+        ]
     },
     "post-rewrite": {
         "enabled": false,
