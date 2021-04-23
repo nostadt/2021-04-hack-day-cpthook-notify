@@ -20,8 +20,15 @@
         "actions": []
     },
     "post-merge": {
-        "enabled": false,
-        "actions": []
+        "enabled": true,
+        "actions": [
+            {
+                "action": "\\CaptainHook\\App\\Hook\\Notify\\Action\\Notify",
+                "options": {
+                    "prefix": "git-notify:"
+                }
+            }
+        ]
     },
     "post-checkout": {
         "enabled": true,
