@@ -1,0 +1,11 @@
+{
+    "name": "amartinno1/2021-04-hack-day-cpthook-notify",
+    "description": "Hack-Day: Try out git-notify by captainhook/captainhook.",
+    "require": {
+    },
+    "license": "COPYLEFT",
+    "require-dev": {
+        "captainhook/captainhook": "^5.8",
+        "captainhook/plugin-composer": "^5.2"
+    }
+}
